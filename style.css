@@ -1,0 +1,59 @@
+.navigation_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation_container a,button{
+    margin-right: 15px;
+}
+
+.navigation_container a{
+    text-decoration: none;
+}
+
+.navigation_container a:visited{
+    color: inherit;
+}
+
+.navigation_container button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.menu{
+    background-image: url("./image/menu.png");
+    background-size: cover;
+}
+
+.navigation_container button:hover{
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+.cloche{
+    background-image: url("./image/cloche.png");
+    background-size: cover;
+}
+
+.body_container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_container img{
+    width: 450px;
+    height: 150px;
+}
+
+.logo_input_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
