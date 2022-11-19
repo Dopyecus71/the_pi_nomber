@@ -1,59 +1,84 @@
-.navigation_container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
-.navigation_container a,button{
-    margin-right: 15px;
-}
-
-.navigation_container a{
-    text-decoration: none;
-}
-
-.navigation_container a:visited{
-    color: inherit;
-}
-
-.navigation_container button{
-    width: 30px;
-    height: 30px;
-    border: none;
-    background-color: white;
-}
-
-.menu{
-    background-image: url("./image/menu.png");
-    background-size: cover;
-}
-
-.navigation_container button:hover{
-    cursor: pointer;
-    background-color: rgb(224, 224, 224);
-}
-
-.cloche{
-    background-image: url("./image/cloche.png");
-    background-size: cover;
-}
-
-.body_container{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.body_container img{
-    width: 450px;
-    height: 150px;
-}
-
-.logo_input_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 250px;
-}
+body {
+    background: linear-gradient(45deg, rgb(59, 71, 145), rgb(132, 168, 252));
+    }
+            
+            .logo-container{
+        width: 100%;
+        height: 30%;
+        border: solid;
+        }
+        
+            .logo-container img{
+            width: 50%;
+            margin-left: 25%;
+        }
+    
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+            p{
+            text-align: center;
+        }
+    
+        .titre{
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            box-shadow: 20px 15px 20px rgb(135,206,250);
+        }
+    
+        .titre:hover{
+            cursor: pointer;
+            box-shadow: 10px 10px 10px rgb(135,206,250);
+    
+        }
+            
+        .table{
+            width: 30px;
+            height: 15px
+            }
+            
+        tr{
+            height: 4em;
+            }
+        td{
+            width: 4em;
+            }
+            
+        p{
+            font: caption;
+            }
+            
+            .button {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 1);
+        background-image: linear-gradient(to top left,
+                                        rgba(0, 0, 0, .2),
+                                        rgba(0, 0, 0, .2) 30%,
+                                        rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+            }
+    
+    .button:hover {
+        background-color: rgba(10, 10, 10, 1);
+            }
+    
+    .button:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+            }
+    
